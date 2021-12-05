@@ -45,9 +45,9 @@ def update(id,title,author,year,isbn):
 	conn.commit()
 	conn.close()
 
-connect()
+#connect()
 #insert("The Earth","John Smith 3",1915,91312312312132)
-print(view())
-update(3,"The moon","John Smooth",1924,123214345234)
-print(view())
+#print(view())
+#update(3,"The moon","John Smooth",1924,123214345234)
+#print(view())
 
